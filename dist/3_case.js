@@ -3,4 +3,5 @@
 let personeName = "Asif ahmed sahil";
 console.log(personeName.toUpperCase());
 console.log(personeName.toLocaleLowerCase());
+// title case with expression
 console.log(personeName.replace(/\b\w/g, (char) => char.toUpperCase()));
